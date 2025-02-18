@@ -6,7 +6,7 @@ import Associacao from './components/Associacao/Associacao';
 
 function App() {
   return (
-    <Router>
+    <Router>  
       <Routes>
         <Route path="/produtos" element={<Produto />} />
         <Route path="/fornecedores" element={<Fornecedor />} />
