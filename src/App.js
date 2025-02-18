@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Produto from './components/Produto/Produto';
 import Fornecedor from './components/Fornecedor/Fornecedor';
-import Associacao from './components/Associacao1/Associacao/Associacao';
+import Associacao from './components/Associacao/Associacao';
 
 function App() {
   return (
