@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ProdutoList from './ProdutoList';
 import ProdutoForm from './ProdutoForm';
+import './Produto.css';
 
 function Produto() {
   const [produtos, setProdutos] = useState([]);
