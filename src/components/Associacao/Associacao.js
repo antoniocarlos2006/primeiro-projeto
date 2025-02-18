@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import AssociacaoList from '../AssociacaoList';
-import AssociacaoForm from '../AssociacaoForm';
+import AssociacaoList from './AssociacaoList';
+import AssociacaoForm from './AssociacaoForm';
 
 function Associacao() {
   const [associacoes, setAssociacoes] = useState([]);
